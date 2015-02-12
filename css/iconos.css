@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+
+
+@font-face {
+	font-family: 'edinsoncs';
+	src:url('../fonts/edinsoncs.eot?-cpg072');
+	src:url('../fonts/edinsoncs.eot?#iefix-cpg072') format('embedded-opentype'),
+		url('../fonts/edinsoncs.woff?-cpg072') format('woff'),
+		url('../fonts/edinsoncs.ttf?-cpg072') format('truetype'),
+		url('../fonts/edinsoncs.svg?-cpg072#edinsoncs') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'edinsoncs';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkmark:before {
+	content: "\e600";
+	font-size: .8em;
+
+}
+.icon-bookmark:before {
+	content: "\f02e";
+}
+
+.icon-checkmark:hover {
+
+}

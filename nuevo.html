@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Yo</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://www.thepetedesign.com/demos/interactive_3d/jquery.interactive_3d.js"></script>
+</head>
+<body>
+
+	<article id="yoen3d">
+		<figure>
+			<img src="img/3d/frame_1.jpg" alt="">
+		</figure>
+	</article>
+	<script>
+	$("#yoen3d").interactive_3d({
+    frames: 3,
+    cursor: "move",
+    speed: 0,
+    entrance: true,
+    preloadImages: true,
+    touchSupport: true,
+    loading: "Loading..",
+    autoPlay: true
+  });
+
+	</script>
+</body>
+</html>
